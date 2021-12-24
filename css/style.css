@@ -32,7 +32,7 @@ h1,h2,h3,h4,h5,h6 {font-family: 'Roboto', sans-serif;font-weight: 600;color: #11
 p {margin: 0 0 20px;}
 
 a {
-   color: rgb(253, 251, 251);
+   color: black;
    -webkit-transition: all .2s ease-in-out;
    -moz-transition: all .2s ease-in-out;
    transition: all .2s ease-in-out;
@@ -246,5 +246,6 @@ footer .copyright ul li {display: inline-block;margin-left: 10px;}
 /* ---------------------------------------------------------------------------- */
 .btn {}
 .btn.btn-1{ background-color: #222;color: #fff;font-size: 25px;padding: 10px 15px;}
+.btn.btn-1:hover{ background-color: #4CAF50;color: white;}
 .btn.btn-2{margin-left: 5px;background: #D9534F;color: #fff;}
 
